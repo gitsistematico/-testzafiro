@@ -1,0 +1,7 @@
+{
+  "name": "testZafiro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

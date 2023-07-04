@@ -1,0 +1,22 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <!-- <ion-item> -->     
+      <ion-badge (click)="goShoppingCar()" >
+        <ion-icon  name="cart-outline"></ion-icon>
+        {{ shoppingcardProductos.length }}
+      </ion-badge>
+    <!-- </ion-item> -->
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <div *ngFor="let i of productos">
+    <div>
+      <ion-label class="name">{{ i.nombre }} : {{ i.precio }}</ion-label>
+    </div>
+    <ion-item>      
+      <ion-img [src]="i.img"></ion-img>
+    </ion-item>
+    <ion-button (click)="addShopping(i)" expand="block">Add shopping cart</ion-button>
+  </div>
+</ion-content>

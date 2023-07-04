@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <div class="header">
+      <ion-buttons slot="start">
+        <ion-back-button defaultHref="/"></ion-back-button>
+      </ion-buttons>
+      <ion-title>Menu</ion-title>
+      <ion-title>Total a Pagar: {{ totalPay }}</ion-title>
+    </div>
+    
+  </ion-toolbar>
+</ion-header>
+<ion-content [fullscreen]="true">
+  <div *ngFor="let i of carShopping">
+    <div>
+      <ion-label class="name">{{ i.nombre }} : {{ i.precio }}</ion-label>
+    </div>
+    <ion-item>      
+      <ion-img [src]="i.img"></ion-img>
+    </ion-item>
+    <ion-button (click)="removeProduc(i)" color="danger" expand="block">Remove shopping car</ion-button>
+  </div>
+</ion-content>

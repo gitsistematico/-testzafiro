@@ -1,0 +1,65 @@
+[
+    {
+        "id": "202310205",
+        "img": "assets/img/Hyundai-Ioniq-5-mejor-carro-del-año.jpg",
+        "nombre": "Ioniq 5 eléctrico",
+        "marca": "HYUNDAI",
+        "precio": 10000
+    },
+    {
+        "id": "20210204",
+        "img": "assets/img/20210204-NISSAN-PATHFINDER-2022-PORTADA.jpg",
+        "nombre": "NISSAN-PATHFINDER-2022-PORTADA",
+        "marca": "NISSAN",
+        "precio": 10000
+    },
+    {
+        "id": "20221201",
+        "img": "assets/img/20221201-CHEVROLET-MONTANA-2023-PORTADA.jpg",
+        "nombre": "CHEVROLET-MONTANA-2023-PORTADA",
+        "marca": "CHEVROLET",
+        "precio": 10000
+    },
+    {
+        "id": "20221129",
+        "img": "assets/img/20221129MazdaconfirmaSUVColombiaPortada.jpg",
+        "nombre": "MazdaconfirmaSUVColombiaPortada",
+        "marca": "Mazda",
+        "precio": 10000
+    },
+    {
+        "id": "20221028",
+        "img": "assets/img/20221028-Kia-EV6-GT-Line-01.jpg",
+        "nombre": "Kia-EV6-GT-Line-01",
+        "marca": "Kia",
+        "precio": 10000
+    },
+    {
+        "id": "20220914",
+        "img": "assets/img/20220914-FORD-MUSTANG-2024-PORTADA.jpg",
+        "nombre": "FORD-MUSTANG-2024-PORTADA",
+        "marca": "FORD",
+        "precio": 10000
+    },
+    {
+        "id": "20220510",
+        "img": "assets/img/20220510-RANGE-ROVER-SPORT-2023-PORTADA.jpg",
+        "nombre": "RANGE-ROVER-SPORT-2023-PORTADA",
+        "marca": "LAND ROVER",
+        "precio": 10000
+    },
+    {
+        "id": "20220420",
+        "img": "assets/img/20220420-HONDA-HR-V-2023-Y-LANZAMIENTOS-PARA-SUDAMERICA-01.jpg",
+        "nombre": "HONDA-HR-V-2023-Y-LANZAMIENTOS-PARA-SUDAMERICA",
+        "marca": "HONDA",
+        "precio": 10000
+    },
+    {
+        "id": "20211206",
+        "img": "assets/img/20211206-JEEP-WRANGLER-4XE-EUROPA-PORTADA.jpg",
+        "nombre": "JEEP-WRANGLER-4XE",
+        "marca": "JEEP",
+        "precio": 10000
+    }
+]
